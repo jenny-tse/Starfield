@@ -39,8 +39,8 @@ class Particle{
     myX += cos((float)myAngle) * mySpeed * 2;
     myY += sin((float)myAngle) * mySpeed * 2;
         if (mouseX>500){
-      myX -= cos((float)myAngle) * mySpeed * 5;
-      myY -= sin((float)myAngle) * mySpeed * 5;
+      myX -= cos((float)myAngle) * mySpeed * 9;
+      myY -= sin((float)myAngle) * mySpeed * 9;
     }
     if (mouseX<500){
       myX += cos((float)myAngle) * mySpeed * 5;
